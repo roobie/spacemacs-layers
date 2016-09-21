@@ -19,3 +19,21 @@ Once the configuration is done, restart Emacs to load, install and configure
 your layer.
 
 [conf_layers]: https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#extensions-and-packages
+
+# .spacemacs stuff
+
+#### font
+```el
+   dotspacemacs-default-font '("DejaVu Sans Mono"
+                               :size 16
+                               :weight normal
+                               :width normal
+                               :powerline-scale 1.1)
+```
+
+#### `custom-set-variables`
+
+```el
+ '(indent-tabs-mode nil)
+ '(js-indent-level 2)
+```
